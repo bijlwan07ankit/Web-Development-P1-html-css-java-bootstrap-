@@ -207,15 +207,49 @@
 // arr[-2] = 0;
 // console.log(arr.length);
 
-function linearSearch(arr, target) {
-    for (let i = 0; i <= arr.length; i++) {
-        if (arr[i] === target) {
-            console.log(i) ;
-        }
-    }
-    console.log(-1);
- }
+// function linearSearch(arr, target) {
+//     for (let i = 0; i <= arr.length; i++) {
+//         if (arr[i] === target) {
+//             console.log(i) ;
+//         }
+//     }
+//     console.log(-1);
+//  }
  
- const myArray = [4, 2, 7, 1, 9];
- const targetElement = 9;
- const result = linearSearch(myArray, targetElement);
+//  const myArray = [4, 2, 7, 1, 9];
+//  const targetElement = 9;
+//  const result = linearSearch(myArray, targetElement);
+// ------------------------------------------------------------------
+// 
+// let word="language";
+// // let arr =word.split("");
+// let count=0;
+// console.log(word);
+//    for(let i=0;i<word.length;i++){
+//        console.log(word[i]);
+//      if( (word[i]==='a')||(word[i]==='e')||(word[i]==='i')||(word[i]==='o')||(word[i]==='u')){
+//        count++;
+//      }
+//     }
+//     console.log(count);
+// //    return count;
+let arr=[1,2,3,4,5];
+let k=4;
+let n=arr.length;
+console.log(n);
+for(let rotation=1;rotation<=k;rotation++){
+    for( let i=0;i<n;i++){
+    if (i>0){
+        arr[n-1]=arr[n];
+    }
+       
+    else if(i==0){
+    arr[n-1]=arr[0];
+        console.log(arr[0]);
+        console.log(arr[4]);
+    }
+        
+}
+console.log(arr)
+}
+// return arr;
