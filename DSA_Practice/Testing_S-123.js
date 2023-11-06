@@ -233,15 +233,70 @@
 //     }
 //     console.log(count);
 // //    return count;
-let arr=[1,2,3,4,5];
-let k=4;
-let n=arr.length;
-let x=arr[0]
-    for( let i=0;i<n-2;i++){
-        arr[n-1]=arr[n];
-    }
-    arr[n-1]=x;
-    
-console.log(arr)
+// --------------------------------------------------------------------------------------------------------------
+// returnung cyclic rotation of array 
+// function reverse(arr,left,right ){
+//     // run a while loop untill left<right 
+//     while(left<right){
+//         // swap the array value at array's left index to right index
+//     let temp=arr[left];
+//     arr[left]=arr[right];
+//     arr[right]=temp;
+//     // increment left by 1 and decrement right by 1
+//     left++;
+//     right--;
+//     }
+// }
 
-// return arr;
+//    let arr=[1,2,3,4,5];
+//    let n=5;
+//    let k=2;
+  
+//       // reducing the size of k 
+//       k=k%n;
+//       // call reverse for array (0,n-k-1)
+//       reverse(arr,0,n-k-1);
+//       // call reverse for array (n-k,n-1)
+//       reverse(arr,n-k,n-1);
+//       // call reverse for array (0,n-1)
+//       reverse(arr,0,n-1);
+//   // return the same input array 
+//   console.log(arr);
+  
+// -------------------------------------------------------------------------------------------------------------
+// function touppercase(c){
+//     const ascai=c.charCodeAt(0);
+//     return String.fromCharCode(ascai-32);
+  
+//   }
+  
+//   // TODO: Implement this method
+//   function capitalise(paragraph) {
+//     let n = paragraph.length;
+//     let array=Array.from(paragraph);
+//     for(let i=0;i<n;i++){
+//     if(i==0 || array[i-1]==" " || array[i-1]=="."){
+//       if(array[i]>='a' && array[i]<='z'){
+//       array[i]=touppercase(array[i]);
+//     }
+//     }
+//     }
+//     return array.join("");
+//   }
+
+// ------------------------------------------------------------------------------------------------------------
+
+// Binary search 
+// function searchTarget(N,A,X) {
+//     let l=0; let r = N-1;  
+//     while(l<=r){
+//         const mid=Math.floor((l+r)/2);
+//         if(A[mid]==X)
+//         return mid;
+//     else if(X<A[mid])
+//             r=mid-1;
+//     else
+//             l=mid+1;
+//     }
+//     return -1
+// }
