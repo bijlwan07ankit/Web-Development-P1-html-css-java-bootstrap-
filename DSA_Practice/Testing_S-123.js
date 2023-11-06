@@ -301,17 +301,31 @@
 //     return -1
 // }
 // -------------------------------------------------------------------------------------------------------------------
-function countWaysToClimbStairs(N):
-    // Initialize an array to store the number of ways to reach each step
-    let dp[0...N]
+// fizz-buzz
+// let N=100;
+// for(let i=1;i<=100;i++){
     
-    // There is one way to reach the 0th step
-    dp[0] = 1
-    
-    // Calculate the number of ways to reach each step using 1, 2, or 3 steps at a time
-    for i from 1 to N:
-        dp[i] = dp[i - 1] + dp[i - 2] + dp[i - 3]
-    
-    // The result is the number of ways to reach the Nth step
-    return dp[N]
+//     if(i%3==0 && i%5==0){
+//         console.log(" FIZZ-BUZZ")
+//     }
+//     else if(i%3==0){
+//         console.log(" fizz")
+//     }
+//     else if(i%5==0){
+//         console.log(" buzz")
+//     }
+//     else{
+//         console.log(i);
+//     }
+// }
 
+// ---------------------------------------------------------------------------------------------------------------------
+//  pettern 
+let n=4;
+for(let i=1;i<=n;i++){
+    let row=' ';
+    for(let j=1;j<=i;j++){
+        row+='*'
+    }
+    console.log(row);
+}
