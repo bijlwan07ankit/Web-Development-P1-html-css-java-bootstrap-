@@ -236,20 +236,12 @@
 let arr=[1,2,3,4,5];
 let k=4;
 let n=arr.length;
-console.log(n);
-for(let rotation=1;rotation<=k;rotation++){
-    for( let i=0;i<n;i++){
-    if (i>0){
+let x=arr[0]
+    for( let i=0;i<n-2;i++){
         arr[n-1]=arr[n];
     }
-       
-    else if(i==0){
-    arr[n-1]=arr[0];
-        console.log(arr[0]);
-        console.log(arr[4]);
-    }
-        
-}
+    arr[n-1]=x;
+    
 console.log(arr)
-}
+
 // return arr;
