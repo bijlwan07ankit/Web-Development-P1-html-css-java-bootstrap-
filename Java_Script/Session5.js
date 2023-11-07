@@ -51,13 +51,13 @@
 // console.log(arr3[0][2][1])
 // console.log(arr3[0][2].includes(4))
 
-// let arr = [[1,2], 3, 4];
+let arr = [[1,2], 3, 4];
 
-// arr.push([]);
-// console.log(arr);
+arr.push([]);
+console.log(arr);
 
-// arr[3].push(5);
-// console.log(arr);
+arr[3].push(5);
+console.log(arr);
 
 // arr.pop();
 // console.log(arr);
@@ -100,25 +100,25 @@
 
 // //1. Object literal approach
 
-let student = {
-    name: "Rahul",
-    class: 10,
-    'date of birth': '12/06/2000',
-    marks: [99,98,97,96,89],
-    isTopper: true,
-    duesRemaining: null,
-    address: {
-      plotNo: 770,
-      streetAddress: 'XYZ Street',
-      city: 'Bengaluru',
-      state: 'Karnataka',
-      pinCode: 560001,
-      landmark: 'XYZ Landmark',
-      anObj: {
-        prop: "some value"
-      }
-    }
-  }
+// let student = {
+//     name: "Rahul",
+//     class: 10,
+//     'date of birth': '12/06/2000',
+//     marks: [99,98,97,96,89],
+//     isTopper: true,
+//     duesRemaining: null,
+//     address: {
+//       plotNo: 770,
+//       streetAddress: 'XYZ Street',
+//       city: 'Bengaluru',
+//       state: 'Karnataka',
+//       pinCode: 560001,
+//       landmark: 'XYZ Landmark',
+//       anObj: {
+//         prop: "some value"
+//       }
+//     }
+//   }
   
   //2. Make an empty object and later add properties to it
   
@@ -171,26 +171,26 @@ let student = {
   
   //--------------Activity----------------------
   
-  const person = {
-    name: "Rahul",
-    jobTitle : "SDE",
-    email: "rahul@mail.com",
-    isVerified: false
-  }
+  // const person = {
+  //   name: "Rahul",
+  //   jobTitle : "SDE",
+  //   email: "rahul@mail.com",
+  //   isVerified: false
+  // }
   
-  console.log(person.name)
-  console.log(person.isVerified);
+  // console.log(person.name)
+  // console.log(person.isVerified);
   
-  person.isVerified = true;
+  // person.isVerified = true;
   
-  delete person.name
+  // delete person.name
   
-  person.firstName = "Rahul";
-  person.lastName = "Sharma";
+  // person.firstName = "Rahul";
+  // person.lastName = "Sharma";
   
-  console.log(person);
+  // console.log(person);
   
-  function getFullName(firstName,middleName,lastName){
-    // You only need to implement this function.
-    return `${firstName} ${middleName} ${lastName}`;
-  }
+  // function getFullName(firstName,middleName,lastName){
+  //   // You only need to implement this function.
+  //   return `${firstName} ${middleName} ${lastName}`;
+  // }

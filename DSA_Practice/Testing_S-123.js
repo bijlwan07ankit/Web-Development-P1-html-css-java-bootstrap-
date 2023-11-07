@@ -329,3 +329,35 @@
 //     }
 //     console.log(row);
 // }
+// ----------------------------------------------------------------------------------------------------------------
+// PRIME Number
+
+// console.log(IsPrime(67));
+
+// function IsPrime (num){
+//     let factor=0;
+// for(let i=2;i<num;i++){
+//     if(num%i==0){
+//         factor++;
+//     }
+// }
+// if(factor==0){
+//     return ("its a prime number");
+// }
+// else{
+//     return ("its not a prime no ");
+// }
+// }
+// =======================================================================================================
+// sum of diviser
+
+let n=3;
+let sum=0;
+for(let j=1;j<=n;j++){
+for(let i=1;i<=j;i++){
+    if(j%i===0){
+        sum+=i;
+    }
+ }
+}
+console.log(sum);
