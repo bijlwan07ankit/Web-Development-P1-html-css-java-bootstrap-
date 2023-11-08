@@ -1,18 +1,21 @@
-//  const userDetails = {
-//     name: {
-//       first: "Kapil",
-//       last: "Raghuwanshi",
-//     },
-//     jobTitle: "JS Instructor @ Crio.do",
-//     email: {
-//       work: "kapil@epsilon.com",
-//       personal: "",
-//     },
-//     status: {
-//       isOnline: true,
-//       isVerified: false,
-//     }
-//   }
+ const userDetails = {
+    name: {
+      first: "Kapil",
+      last: "Raghuwanshi",
+    },
+    jobTitle: "JS Instructor @ Crio.do",
+    email: {
+      work: "kapil@epsilon.com",
+      personal: "",
+    },
+    status: {
+      isOnline: true,
+      isVerified: false,
+    }
+  }
+  userDetails.name.first="Ankit";
+  userDetails.name.last="Bijlwan";
+  console.log(userDetails);
 
 // // let arr = [1,23,3,5];
 
@@ -166,8 +169,8 @@ let person = {
   // console.log(5 / -(0));
   // console.log(-(0 / 5));
   
-  console.log(""===false);
-  console.log("0"==false);
+  // console.log(""===false);
+  // console.log("0"==false);
   
   
   
