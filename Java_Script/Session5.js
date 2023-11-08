@@ -51,13 +51,13 @@
 // console.log(arr3[0][2][1])
 // console.log(arr3[0][2].includes(4))
 
-let arr = [[1,2], 3, 4];
+// let arr = [[1,2], 3, 4];
 
-arr.push([]);
-console.log(arr);
+// arr.push([]);
+// console.log(arr);
 
-arr[3].push(5);
-console.log(arr);
+// arr[3].push(5);
+// console.log(arr);
 
 // arr.pop();
 // console.log(arr);
@@ -194,3 +194,21 @@ console.log(arr);
   //   // You only need to implement this function.
   //   return `${firstName} ${middleName} ${lastName}`;
   // }
+
+  // practice
+  // --------------------------------- practice Object-------------------------------------------------------
+let  person={};
+person.name="Ankit";
+person.Age=30;
+person.Address="Dehradun";
+person.sallary=50000;
+person.contact{
+  mobile:9410129848;
+  email:"bijlwan07ankit@gmail.com";
+};
+console.log(person);
+
+person.sallary=60000;
+delete person.Address;
+console.log(person);
+
