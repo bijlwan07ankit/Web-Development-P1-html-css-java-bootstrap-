@@ -202,10 +202,10 @@ person.name="Ankit";
 person.Age=30;
 person.Address="Dehradun";
 person.sallary=50000;
-person.contact{
-  mobile:9410129848;
-  email:"bijlwan07ankit@gmail.com";
-};
+person.contact={
+  mobile:9410129848,
+  email:"bijlwan07ankit@gmail.com",
+}
 console.log(person);
 
 person.sallary=60000;

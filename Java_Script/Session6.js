@@ -28,15 +28,15 @@
 
 //--------------Object Destructuring---------------
 
-let person = {
-    name: "Rahul",
-    age: 24,
-    designation: "Software Engineer"
-  }
+// let person = {
+//     name: "Rahul",
+//     age: 24,
+//     designation: "Software Engineer"
+//   }
   
-  const name = person.name;
-  const age = person.age;
-  const designation = person.designation;
+//   const name = person.name;
+//   const age = person.age;
+//   const designation = person.designation;
   
   // const { age, name } = person;
   
@@ -172,6 +172,53 @@ let person = {
   // console.log(""===false);
   // console.log("0"==false);
   
+  // ---------------------------------------------------------------------------------------------
+  // rivision array of objevcts
+//   var student = [
+
+//     {
+//      name: "Kevin",
+//      rollNumber: 10,
+//      stream: "PCM"
+//     },
+
+//     {
+//       name: "Martin",
+//       rollNumber: 20,
+//       stream: "PCM"
+//     },
+
+//     {
+//        name: "Robert",
+//        rollNumber: 30,
+//        stream: "PCB"
+//     }
+// ]
+// console.log(student[2].name);
+
+// -------------------------Activity----------------------------
+
+const vehicle=[
+  {
+    color: "Red",
+    type: "Hatchback",
+    capacity:"5 Seater"
+
+  },
+  {
+    color:"black" ,
+    type: "Seden" ,
+    capacity:"5 Seater"
+
+  },
+  {
+    color:"blue" ,
+    type: "SUV",
+    capacity:" Seater"
+
+  }
+]
+console.log(vehicle[1].capacity)
   
   
   
