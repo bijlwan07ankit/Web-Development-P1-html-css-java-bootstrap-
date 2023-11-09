@@ -1,21 +1,21 @@
- const userDetails = {
-    name: {
-      first: "Kapil",
-      last: "Raghuwanshi",
-    },
-    jobTitle: "JS Instructor @ Crio.do",
-    email: {
-      work: "kapil@epsilon.com",
-      personal: "",
-    },
-    status: {
-      isOnline: true,
-      isVerified: false,
-    }
-  }
-  userDetails.name.first="Ankit";
-  userDetails.name.last="Bijlwan";
-  console.log(userDetails);
+//  const userDetails = {
+//     name: {
+//       first: "Kapil",
+//       last: "Raghuwanshi",
+//     },
+//     jobTitle: "JS Instructor @ Crio.do",
+//     email: {
+//       work: "kapil@epsilon.com",
+//       personal: "",
+//     },
+//     status: {
+//       isOnline: true,
+//       isVerified: false,
+//     }
+//   }
+//   userDetails.name.first="Ankit";
+//   userDetails.name.last="Bijlwan";
+//   console.log(userDetails);
 
 // // let arr = [1,23,3,5];
 
@@ -198,28 +198,63 @@
 
 // -------------------------Activity----------------------------
 
-const vehicle=[
-  {
-    color: "Red",
-    type: "Hatchback",
-    capacity:"5 Seater"
+// const vehicle=[
+//   {
+//     color: "Red",
+//     type: "Hatchback",
+//     capacity:"5 Seater"
 
-  },
-  {
-    color:"black" ,
-    type: "Seden" ,
-    capacity:"5 Seater"
+//   },
+//   {
+//     color:"black" ,
+//     type: "Seden" ,
+//     capacity:"5 Seater"
 
-  },
-  {
-    color:"blue" ,
-    type: "SUV",
-    capacity:" Seater"
+//   },
+//   {
+//     color:"blue" ,
+//     type: "SUV",
+//     capacity:" Seater"
 
-  }
-]
-console.log(vehicle[1].capacity)
+//   }
+// ]
+// console.log(vehicle[1].capacity)
+// -----------------------------------activity------------------
+
   
-  
+// var student = [
+
+//   {
+//       name: "Kevin",
+//       std_id: 10,
+//       marks: 25
+//   },
+//   {
+//      name: "Austin",
+//      std_id: 20,
+//      marks: 30
+//   },
+//   {
+//       name: "Robin",
+//       std_id: 30,
+//       marks: 20
+//   }
+
+// ];
+
+// let maxmarks=0;
+// let maxmarksname;
+//  for(let i=0;i<student.length;i++){
+//   if(student[i].marks>maxmarks){
+//   maxmarks=student[i].marks;
+//   maxmarksname=student[i].name;
+
+//   }
+// }
+// console.log(maxmarksname)
+// ------------------------------------------------------------------------------------------------------------------------
+console.log(202.2*2);
+console.log(303.3*3);
+
   
   

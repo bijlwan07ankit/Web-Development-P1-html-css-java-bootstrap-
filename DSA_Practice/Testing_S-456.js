@@ -13,3 +13,24 @@
 // n.padstart(5,"0");
 // console.log(n);
 
+// ---------------------------------------------------------------------------------------------
+let num=132456;
+let a=num.toString(2);
+a.split(" ").reverse()
+// arr = [];
+//     let EvenSum = 0;
+//     let OddSum = 0;
+//     while (num > 0) {
+//         rem = num / 10;
+//         num % 10;
+//         arr.push(rem);
+        
+//     }
+//     console.log(arr);
+
+
+    
+    // }
+    // arr.Reverse;
+    // console.log(arr);
+    
