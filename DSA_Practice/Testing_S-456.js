@@ -50,16 +50,69 @@
 // add(2,3);
 // add2(2,3);
    
-function checkeven(a,b){
-    if(a%2===0 && b%2===0){
-      console.log(true);
-    }
-    else{
-        console.log(false);
+// function checkeven(a,b){
+//     if(a%2===0 && b%2===0){
+//       console.log(true);
+//     }
+//     else{
+//         console.log(false);
 
-    }
-}
+//     }
+// }
 
-const checkevenodd=(a,b)=>console.log((a%2===0 && b%2===0));
-checkeven(2,8);
-checkevenodd(2,8);
+// const checkodd=(a,b)=>console.log((a%2!=0 && b%2!=0));
+// checkeven(2,8);
+// checkodd(2,8);
+
+// -------------------------------------------------------------------
+// mock Test 
+
+// let a="Java is great Grails is also great";
+// let arr=a.split(" ");
+// console.log(arr.length);
+
+// function addMatrices(matrix1, matrix2) {
+//     const resultMatrix = [];
+  
+//     // Check if matrices have the same dimensions
+//     if (matrix1.length !== matrix2.length || matrix1[0].length !== matrix2[0].length) {
+//       console.log("Matrices must have the same dimensions for addition.");
+//       return null;
+//     }
+  
+//     // Iterate through rows
+//     for (let i = 0; i < matrix1.length; i++) {
+//       const row = [];
+//       // Iterate through columns
+//       for (let j = 0; j < matrix1[i].length; j++) {
+//         // Add corresponding elements
+//         row.push(matrix1[i][j] + matrix2[i][j]);
+//       }
+//       // Add the row to the result matrix
+//       resultMatrix.push(row);
+//     }
+  
+//     console.log(resultMatrix);;
+//   }
+  
+ const globlevar=5;
+ function grandparent(){
+    const grandparentvar=6;
+    function parent(){
+        const parentvar=7;
+        // console.log(childvar);  cant acsess
+            console.log(parentvar);   //can 
+            console.log(grandparentvar);    //can 
+            console.log(globlevar);  //can
+        function child(){
+            const childvar=8;
+            console.log(childvar);
+            console.log(parentvar);
+            console.log(grandparentvar);
+            console.log(globlevar);
+        }
+        child();
+    }
+    parent ();
+ }
+ grandparent();
