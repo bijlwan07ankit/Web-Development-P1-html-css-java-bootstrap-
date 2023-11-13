@@ -95,24 +95,24 @@
 //     console.log(resultMatrix);;
 //   }
   
- const globlevar=5;
- function grandparent(){
-    const grandparentvar=6;
-    function parent(){
-        const parentvar=7;
-        // console.log(childvar);  cant acsess
-            console.log(parentvar);   //can 
-            console.log(grandparentvar);    //can 
-            console.log(globlevar);  //can
-        function child(){
-            const childvar=8;
-            console.log(childvar);
-            console.log(parentvar);
-            console.log(grandparentvar);
-            console.log(globlevar);
-        }
-        child();
-    }
-    parent ();
- }
- grandparent();
+//  const globlevar=5;
+//  function grandparent(){
+//     const grandparentvar=6;
+//     function parent(){
+//         const parentvar=7;
+//         // console.log(childvar);  cant acsess
+//             console.log(parentvar);   //can 
+//             console.log(grandparentvar);    //can 
+//             console.log(globlevar);  //can
+//         function child(){
+//             const childvar=8;
+//             console.log(childvar);
+//             console.log(parentvar);
+//             console.log(grandparentvar);
+//             console.log(globlevar);
+//         }
+//         child();
+//     }
+//     parent ();
+//  }
+//  grandparent();
