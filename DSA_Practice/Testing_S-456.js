@@ -167,30 +167,44 @@
 
 //   wrongGCD(48,18);
 // ----------------------------------------------
-const isPrime=(n)=>{
-    if (n<=1){
-        console.log(n);
-        return false;
-    }
-    if(i==2){
-        return true;
-    }
-        for(let i=3;i<Math.sqrt(n);i++){
-            if(n%i==0){
-                return false;
-            }
-        }
-            return true;
+// let s="abc"
+// function reverseString(s) {
+//     let stack = [];
+//     for (let ch of s) {
+//          stack.push(ch);
+//     }
+//     console.log(stack);
+//     let ans = "";
+
+//      while (s.length > 0) {
+
+//       ans += stack[stack.length - 1];
+//       stack.pop();
     
-    }
-    let n=2;
-    function countPrimes(n) {
-        let count=0;
-        for(let i=1;i<n;i++){
-            if(isPrime(i)==true){
-                count+=1;
-            }
-        }
-            return count;
-        }
-       
+//     }
+//     return ans;
+// }
+
+// reverseString(s);
+// function main() {
+//     let s = readLine();
+//     let ans = reverseString(s);
+//     console.log(ans);
+// }
+// --------------------------------------------------------------------
+const array = [
+    {
+      name: "Kevi",
+      age: 25,
+    },
+    {
+      name: "Arnold",
+      age: 6,
+    },
+    {
+      name: "Sheila",
+      age: 56,
+    },
+  ];
+  
+console.log(array.age[0]); 
