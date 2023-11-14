@@ -116,3 +116,53 @@
 //     parent ();
 //  }
 //  grandparent();
+
+// -----------------------------------
+// function isPrime(n) {
+//     if (n <= 1) console.log(false);
+//     for (let i = 2; i <= Math.sqrt(n); i+=2) {
+//       if (n % i === 0) console.log(false);
+//     }
+//     console.log(true);
+//   }
+
+// function isPrime(n) {
+//     if (n <= 1)  console.log(false);
+//     for (let i = 2; i*i <=n; i++) {
+//       if (n % i === 0)  console.log(false);
+//     }
+//     console.log( true);
+//   }
+
+// function isPrime(n) {
+//     if (n <= 1) console.log(false);
+//     for (let i = 2; i < n; i++) {
+//       if (n % i === 0) console.log(false);
+//     }
+//     console.log(true);
+//   }
+//   isPrime(2);
+//   isPrime(23);
+//   isPrime(0);
+//   isPrime(1);
+//   isPrime(9);
+//   isPrime(-23);
+// --------------------------------------------------------------------
+// function wrongGCD(a, b) {
+//     let gcd = Math.min(a, b);
+//     while (a % gcd != 0 || b % gcd != 0) {
+//       gcd--;
+//     }
+//     console.log(gcd);
+//   }
+//   wrongGCD(18,27);
+
+// function wrongGCD(a, b) {
+//     let gcd = Math.min(a, b);
+//     while (a % gcd !== 0 && b % gcd !== 0) {
+//       gcd--;
+//     }
+//     console.log(gcd);
+//   }
+
+//   wrongGCD(48,18);
