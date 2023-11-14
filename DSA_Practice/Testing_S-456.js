@@ -166,3 +166,31 @@
 //   }
 
 //   wrongGCD(48,18);
+// ----------------------------------------------
+const isPrime=(n)=>{
+    if (n<=1){
+        console.log(n);
+        return false;
+    }
+    if(i==2){
+        return true;
+    }
+        for(let i=3;i<Math.sqrt(n);i++){
+            if(n%i==0){
+                return false;
+            }
+        }
+            return true;
+    
+    }
+    let n=2;
+    function countPrimes(n) {
+        let count=0;
+        for(let i=1;i<n;i++){
+            if(isPrime(i)==true){
+                count+=1;
+            }
+        }
+            return count;
+        }
+       
