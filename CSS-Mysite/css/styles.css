@@ -1,17 +1,25 @@
 body{
+    color:#40514E;
     margin:0px;
     text-align:center;
     font-family: 'Merriweather', serif;
 }
 h1{
-    margin-top:0;
+    color:#66BFBF;
+    margin:50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size:93px;
+    font-size:562.5%;
+    /* line-height:2; */
 }
 h2{
+    color:#66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
+    font-weight:normal;
+    padding-bottom:10px;
     }
 h3{
+    color:#11999E;
     font-family: 'Montserrat', sans-serif;
 }
 .top-container{
@@ -21,14 +29,14 @@ h3{
     
    }
    .middle-container{
-   
+   padding-top:100px,0;
+  
     
    }
    .bottom-container{
-   
-    
-    
+
    }
+   
    .dev{
     text-decoration:underline;
    }
@@ -43,3 +51,4 @@ h3{
     bottom:300px;
     top:50px;
    }
+   
