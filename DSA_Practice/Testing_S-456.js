@@ -192,19 +192,31 @@
 //     console.log(ans);
 // }
 // --------------------------------------------------------------------
-const array = [
-    {
-      name: "Kevi",
-      age: 25,
-    },
-    {
-      name: "Arnold",
-      age: 6,
-    },
-    {
-      name: "Sheila",
-      age: 56,
-    },
-  ];
+// const array = [
+//     {
+//       name: "Kevi",
+//       age: 25,
+//     },
+//     {
+//       name: "Arnold",
+//       age: 6,
+//     },
+//     {
+//       name: "Sheila",
+//       age: 56,
+//     },
+//   ];
   
-console.log(array.age[0]); 
+// console.log(array.age[0]); 
+// =====================================
+function sumofremender(n){
+  let result=0;
+  while (n>=1){
+      let rem=n%10; //3
+      result=result+Math.pow(rem,2);  //0+9=9
+      n=Math.floor(n/10); //2
+    }
+    console.log(result);  
+  }
+
+      sumofremender(19);
