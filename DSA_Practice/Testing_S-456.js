@@ -209,14 +209,40 @@
   
 // console.log(array.age[0]); 
 // =====================================
-function sumofremender(n){
-  let result=0;
-  while (n>=1){
-      let rem=n%10; //3
-      result=result+Math.pow(rem,2);  //0+9=9
-      n=Math.floor(n/10); //2
-    }
-    console.log(result);  
-  }
+// function sumofremender(n){
+//   let result=0;
+//   while (n>=1){
+//       let rem=n%10; //3
+//       result=result+Math.pow(rem,2);  //0+9=9
+//       n=Math.floor(n/10); //2
+//     }
+//     console.log(result);  
+//   }
 
-      sumofremender(19);
+//       sumofremender(19);
+// ......................................................................................
+function touppercase(c){
+  const ascai=c.charCodeAt(0);
+  return String.fromCharCode(ascai-32);
+
+}
+
+function capitalise(STR) {
+  let n = STR.length;
+  let array=Array.from(STR);
+  for(let i=0;i<n;i++){
+  if(i==0 || array[i-1]==" " || array[i-1]=="."){
+    if(array[i]>='a' && array[i]<='z'){
+    array[i]=touppercase(array[i]);
+  }
+  }
+  }
+  return array.join("");
+}
+
+
+function main() {
+     let STR = readLine();
+  let result = capitalise(STR);
+  console.log(result);
+}
