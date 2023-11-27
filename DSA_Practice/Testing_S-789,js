@@ -1,0 +1,101 @@
+// // const ans=[];
+// // let s="Ankit";
+// // const nameset=new Set(s);
+// // console.log(nameset);
+// // let alpha="aeiou";
+// // const alphaset=new Set(alpha);
+// // console.log(alphaset);
+// // //intersection between two sets
+// // let count=0;
+// // for(let c of nameset){
+// //     if(alphaset.has(c)){
+// //         count++;
+// //     }
+
+// //         ans.push(count)
+// //     }
+
+// // console.log(ans);
+// // =================================
+// function titleToNumber(s) {
+//     let result = 0;
+
+//     for (let i = 0; i < s.length; i++) {
+//         result = result * 26 + (s.charCodeAt(i) - 'A'.charCodeAt(0) + 1);
+//     }
+
+//     return result;
+// }
+
+
+// function rearrangeSentence(input) {
+//     // Split the input string into an array of words
+//     const words = input.split(/[0-9]+/).filter(Boolean);
+
+//     // Split the input string into an array of numbers
+//     const numbers = input.split(/[a-zA-Z]+/).filter(Boolean).map(Number);
+
+//     // Create an array to store the words in the correct order
+//     const result = Array(words.length);
+
+//     // Place each word at its correct position in the result array
+//     for (let i = 0; i < words.length; i++) {
+//         result[numbers[i] - 1] = words[i];
+//     }
+
+//     // Join the words to form the final sentence
+//     const finalSentence = result.join(' ');
+
+//     return finalSentence;
+// }
+
+
+
+
+// # Example usage:
+// column_title = "AB"
+// column_number = title_to_number(column_title)
+// print(f"The column number of '{column_title}' is: {column_number}")
+
+function wordFrequencies(words) {
+    function calculateWordFrequencies(inputStrings) {
+        const wordFrequencies = {};
+    
+        // Extract the number of input strings and the actual strings
+        const n = parseInt(inputStrings[0], 10);
+        const words = inputStrings.slice(1);
+    
+        // Count the frequency of each word
+        for (let word of words) {
+            // Remove punctuation and convert to lowercase for better matching
+            // const cleanedWord = word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").toLowerCase();
+    
+            // Increment the word frequency in the map
+            if (cleanedWord !== "") {
+                wordFrequencies[cleanedWord] = (wordFrequencies[cleanedWord] || 0) + 1;
+            }
+        }
+    
+        // Convert the word frequencies map to an array of objects
+        const wordFrequencyArray = Object.entries(wordFrequencies)
+            .map(([word, frequency]) => ({ word, frequency }));
+    
+        // Sort the array by word frequency in descending order
+        wordFrequencyArray.sort((a, b) => b.frequency - a.frequency);
+    
+        return wordFrequencyArray;
+    }
+    
+    // Example usage:
+    const inputStrings = ["4", "this", "is", "a", "sample"];
+    const wordFrequencies = calculateWordFrequencies(inputStrings);
+    
+    // Display the sorted word frequencies
+    console.log("Word Frequencies:");
+    wordFrequencies.forEach(({ word, frequency }) => {
+        console.log(`${word}: ${frequency}`);
+    });
+    
+
+
+
