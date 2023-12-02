@@ -1,0 +1,41 @@
+body{ 
+}
+.card-img{
+    text-shadow: 1rem;
+}
+.card{
+    margin:30px 30px;
+    display:flex;
+    text-align: center;
+    /* border-width: 1rem; */
+  
+    
+}
+.crousel-img{
+    height:50%;
+    width:auto;
+}
+
+    .card-img{
+       padding:1rem;
+       border-radius: 100%;
+
+    }
+    
+
+    .img-shirt{
+        height:300px;
+        width:300px;
+    
+    }
+    .header-text,.footer-text{
+        text-align:center;
+        color:black solid;
+    }
+    .header-font{
+        font-size:16px;;
+    }
+
+.footer-text{
+    text-align: left;;
+}
