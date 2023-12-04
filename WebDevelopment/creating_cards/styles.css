@@ -1,11 +1,19 @@
-body{
-    background-color:black;
+.nav-link{
+    color:#fff;
+    
 }
-.crad{
-    text-align: center;
-}
-.img{
-    height:300px;
-    width:200px;
+navbar2, navbar1{
+    padding:0%;
 
+}
+.crousel-img{
+    height:auto;
+    width:100%;
+
+
+}
+
+.testimonial-image{
+    height:auto;
+    width:100%;
 }
